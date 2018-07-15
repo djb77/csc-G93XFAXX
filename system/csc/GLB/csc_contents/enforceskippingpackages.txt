@@ -1,0 +1,13 @@
+12
+SamsungPayStub.apk
+GalaxyCare.apk
+AxelSpringer.apk
+AndroidPay_erasable_Hero.apk
+NaverV_N.apk
+MSSkype_stub.apk
+SamsungUpdates.apk
+UnifiedWFC.apk
+RcsSettings.apk
+OMCAgent.apk
+Omc.apk
+KT114Provider.apk

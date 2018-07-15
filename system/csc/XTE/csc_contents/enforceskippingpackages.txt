@@ -1,0 +1,17 @@
+16
+SamsungPayStub.apk
+GalaxyCare.apk
+AxelSpringer.apk
+AndroidPay_erasable_Hero.apk
+NaverV_N.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
+MSSkype_stub.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk
+ImsTelephonyService.apk
+SamsungUpdates.apk
+OMCAgent.apk
+vsimservice.apk

@@ -1,0 +1,2 @@
+/system/app/GalaxyGift_stub_v3.1_20180312/GalaxyGift_stub_v3.1_20180312.apk
+/system/app/Stub_GalaxyGift-release-preload-20160817_1448_6_0_0/Stub_GalaxyGift-release-preload-20160817_1448_6_0_0.apk

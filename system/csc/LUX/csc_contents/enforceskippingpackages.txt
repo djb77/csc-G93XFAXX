@@ -1,0 +1,14 @@
+13
+SamsungPayStub.apk
+smartcallprovider-open-release.apk
+AxelSpringer.apk
+CnnPanel.apk
+NaverV_N.apk
+FBInstagram_stub.apk
+FBMessenger_stub.apk
+UnifiedWFC.apk
+OMCAgent.apk
+Omc.apk
+SamsungUpdates.apk
+RcsSettings.apk
+KT114Provider.apk

@@ -1,0 +1,14 @@
+13
+SamsungPayStub.apk
+AxelSpringer.apk
+smartcallprovider-open-release.apk
+AndroidPay_erasable_Hero.apk
+CnnPanel.apk
+NaverV_N.apk
+OneNote.apk
+SamsungUpdates.apk
+UnifiedWFC.apk
+RcsSettings.apk
+OMCAgent.apk
+Omc.apk
+KT114Provider.apk

@@ -1,0 +1,14 @@
+13
+SamsungPayStub.apk
+GalaxyCare.apk
+AxelSpringer.apk
+smartcallprovider-open-release.apk
+CnnPanel.apk
+NaverV_N.apk
+WhatsApp.apk
+SamsungUpdates.apk
+UnifiedWFC.apk
+RcsSettings.apk
+OMCAgent.apk
+Omc.apk
+KT114Provider.apk

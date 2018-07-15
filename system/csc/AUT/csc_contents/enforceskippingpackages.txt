@@ -1,0 +1,12 @@
+11
+FlipboardBriefing.apk
+smartcallprovider-open-release.apk
+AndroidPay_erasable_Hero.apk
+CnnPanel.apk
+NaverV_N.apk
+UnifiedWFC.apk
+OMCAgent.apk
+Omc.apk
+SamsungUpdates.apk
+RcsSettings.apk
+KT114Provider.apk

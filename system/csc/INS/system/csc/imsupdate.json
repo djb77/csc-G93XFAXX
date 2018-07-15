@@ -1,0 +1,31 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Adding EVS setup for Airtel India",
+  "imsprofile_update": {
+    "profile": [
+      {
+      "name": "AIRTEL VoLTE",
+      "mnoname": "AIRTEL_IN",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

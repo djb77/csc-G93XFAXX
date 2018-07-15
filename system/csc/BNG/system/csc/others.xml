@@ -1,0 +1,21 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>Bangladesh</Country>
+  <CountryISO>BD</CountryISO>
+  <SalesCode>TML</SalesCode>
+  <FeatureSet>
+    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+	<CscFeature_RIL_DisableEons>TRUE</CscFeature_RIL_DisableEons>
+    <CscFeature_Message_ConfigImeiTracker>5959</CscFeature_Message_ConfigImeiTracker> 
+    <CscFeature_Web_ConfigQuickAccessUcWebIntegration>UCWebNavigation</CscFeature_Web_ConfigQuickAccessUcWebIntegration>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Setting_ReplaceLabel4DualSim>Smart dual SIM</CscFeature_Setting_ReplaceLabel4DualSim>
+	<CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport> 
+	<CscFeature_RIL_ConfigNetworkTypeCapability>EUR-EUR-GSM-EUR</CscFeature_RIL_ConfigNetworkTypeCapability>
+   
+  </FeatureSet>
+</SamsungMobileFeauture>

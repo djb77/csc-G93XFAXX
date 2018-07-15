@@ -1,0 +1,2 @@
+/system/app/Stub_GalaxyGift-release-preload-20160817_1448_6_0_0/Stub_GalaxyGift-release-preload-20160817_1448_6_0_0.apk
+/system/priv-app/IPsecService/IPsecService.apk

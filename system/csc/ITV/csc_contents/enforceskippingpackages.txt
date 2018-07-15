@@ -1,0 +1,10 @@
+9
+FlipboardBriefing.apk
+GalaxyCare.apk
+AndroidPay_erasable_Hero.apk
+CnnPanel.apk
+NaverV_N.apk
+UnifiedWFC.apk
+OMCAgent.apk
+SamsungUpdates.apk
+KT114Provider.apk

@@ -1,0 +1,8 @@
+7
+FlipboardBriefing.apk
+CnnPanel.apk
+NaverV_N.apk
+UnifiedWFC.apk
+OMCAgent.apk
+SamsungUpdates.apk
+KT114Provider.apk
