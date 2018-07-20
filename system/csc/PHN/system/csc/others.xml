@@ -74,5 +74,7 @@
     <CscFeature_Wifi_SupportEapFastReauth>TRUE</CscFeature_Wifi_SupportEapFastReauth>
     <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
     <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>
+	<!-- The below tags were not in FMS -->
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
   </FeatureSet>
 </SamsungMobileFeature>
