@@ -1,1 +1,1 @@
-/system/app/app-pre-install-samsungclub/app-pre-install-samsungclub.apk
+/system/app/samsungclub_py_v3.3.4/samsungclub_py_v3.3.4.apk
