@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Uruguay</Country>
     <CountryISO>UY</CountryISO>
     <Region>LA</Region>
@@ -10,36 +10,43 @@
     <NetworkInfo>
       <MCCMNC>74801</MCCMNC>
       <NetworkName>Ancel UY</NetworkName>
+      <NWID>NW00149</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74810</MCCMNC>
       <NetworkName>Claro UY</NetworkName>
+      <NWID>NW00256</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74807</MCCMNC>
       <NetworkName>Movistar UY</NetworkName>
+      <NWID>NW00790</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74405</MCCMNC>
       <NetworkName>Personal PY</NetworkName>
+      <NWID>NW01038</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74402</MCCMNC>
       <NetworkName>Claro PY</NetworkName>
+      <NWID>NW00248</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74401</MCCMNC>
       <NetworkName>Vox PY</NetworkName>
+      <NWID>NW01520</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>74404</MCCMNC>
       <NetworkName>Tigo PY</NetworkName>
+      <NWID>NW01296</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>none</OneSIMLock>
+        <OneSIMLock>off</OneSIMLock>
       </Security>
       <Network>
         <NbFastDormancy>14</NbFastDormancy>
@@ -142,9 +149,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <CountryCert>
-        <CertCountryName>Uruguay</CertCountryName>
-      </CountryCert>
     </Main>
     <Messages>
       <NbVoicemail>7</NbVoicemail>
@@ -199,9 +203,8 @@
       <NbBookmark>1</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Yahoo!</BookmarkName>
-        <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -259,7 +262,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>antel.lte</APN>
         </PSparam>
@@ -272,7 +274,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>200.40.246.2</ServAddr>
@@ -289,7 +290,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>200.40.246.2</ServAddr>
@@ -306,7 +306,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>igprs.claro.com.uy</APN>
         </PSparam>
@@ -319,7 +318,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>igprs.claro.com.uy</APN>
         </PSparam>
@@ -331,7 +329,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>webapn.movistar.com.uy</APN>
           <UserId>movistar</UserId>
@@ -346,7 +343,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>10.0.2.29</ServAddr>
@@ -365,7 +361,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet</APN>
           <UserId>personal</UserId>
@@ -380,7 +375,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.16.192.7</ServAddr>
@@ -399,7 +393,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>igprs.claro.com.py</APN>
         </PSparam>
@@ -412,7 +405,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>igprs.claro.com.py</APN>
         </PSparam>
@@ -424,7 +416,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>vox.internet</APN>
         </PSparam>
@@ -437,7 +428,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.24.97.29</ServAddr>
@@ -456,7 +446,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.tigo.py</APN>
         </PSparam>
@@ -469,7 +458,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>10.16.17.12</ServAddr>
