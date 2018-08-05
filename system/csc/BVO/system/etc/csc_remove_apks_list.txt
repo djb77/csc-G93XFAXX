@@ -1,5 +1,8 @@
-/system/app/app-pre-install-samsungclub/app-pre-install-samsungclub.apk
 /system/app/mobile-prod-release_2.3.0.1/mobile-prod-release_2.3.0.1.apk
+/system/app/newsstubv2/newsstubv2.apk
+/system/app/samsungclub_py_v3.3.4/samsungclub_py_v3.3.4.apk
 /system/app/samsung_club_uy_access_release_v1_3/samsung_club_uy_access_release_v1_3.apk
-/system/app/smart_tutor_b169/smart_tutor_b169.apk
+/system/app/smarttutor_b172/smarttutor_b172.apk
+/system/app/Start-Release_4.5.1_0703_1409_MasMovil_B1/Start-Release_4.5.1_0703_1409_MasMovil_B1.apk
 /system/app/UserManual/UserManual.apk
+/system/priv-app/OnStartNotification_MM_allCarries/OnStartNotification_MM_allCarries.apk

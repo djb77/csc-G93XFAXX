@@ -1,2 +1,1 @@
-/system/app/CLUB3_24/CLUB3_24.apk
-/system/app/VivaElFutbol110/VivaElFutbol110.apk
+/system/app/samsung_club_bo_4.3.4/samsung_club_bo_4.3.4.apk
