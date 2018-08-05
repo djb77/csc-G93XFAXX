@@ -1,100 +1,122 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>SEAD</Country>
     <CountryISO>RS</CountryISO>
     <Region>EUR</Region>
     <SalesCode>SEE</SalesCode>
     <NbNetworkInfo>22</NbNetworkInfo>
     <NetworkInfo>
-      <MCCMNC>21407</MCCMNC>
-      <NetworkName>T-2</NetworkName>
-      <SPName>T-2</SPName>
+      <MCCMNC>29703</MCCMNC>
+      <NetworkName>m:tel MNE</NetworkName>
+      <NWID>NW00695</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29370</MCCMNC>
       <NetworkName>Telemach</NetworkName>
+      <NWID>NW01253</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29341</MCCMNC>
       <NetworkName>Mobitel</NetworkName>
+      <NWID>NW00759</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29340</MCCMNC>
       <NetworkName>Si.mobil</NetworkName>
+      <NWID>NW01122</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29364</MCCMNC>
       <NetworkName>T-2</NetworkName>
+      <NWID>NW01200</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22003</MCCMNC>
       <NetworkName>mt:s</NetworkName>
+      <NWID>NW00802</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22001</MCCMNC>
       <NetworkName>Telenor</NetworkName>
+      <NWID>NW01259</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22005</MCCMNC>
       <NetworkName>Vip SRB</NetworkName>
+      <NWID>NW01432</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21805</MCCMNC>
       <NetworkName>m:tel</NetworkName>
+      <NWID>NW00704</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29401</MCCMNC>
-      <NetworkName>T-Mobile MK</NetworkName>
+      <NetworkName>Telekom.mk</NetworkName>
+      <NWID>NW01252</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29402</MCCMNC>
       <NetworkName>ONE MK</NetworkName>
+      <NWID>NW00904</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29403</MCCMNC>
       <NetworkName>Vip MK</NetworkName>
+      <NWID>NW01438</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21901</MCCMNC>
       <NetworkName>HT HR</NetworkName>
+      <NWID>NW00593</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21910</MCCMNC>
       <NetworkName>HR VIP</NetworkName>
+      <NWID>NW00591</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21902</MCCMNC>
       <NetworkName>TELE2</NetworkName>
+      <NWID>NW01245</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>27602</MCCMNC>
       <NetworkName>Vodafone AL</NetworkName>
+      <NWID>NW01477</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>27601</MCCMNC>
       <NetworkName>Telekom.al</NetworkName>
+      <NWID>NW01256</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21803</MCCMNC>
       <NetworkName>HT Eronet</NetworkName>
+      <NWID>NW00572</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21890</MCCMNC>
       <NetworkName>BH Mobile</NetworkName>
+      <NWID>NW00209</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29701</MCCMNC>
       <NetworkName>Telenor MNE</NetworkName>
+      <NWID>NW01255</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>29702</MCCMNC>
       <NetworkName>Telekom.me</NetworkName>
+      <NWID>NW01251</NWID>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>29703</MCCMNC>
-      <NetworkName>m:tel MNE</NetworkName>
+      <MCCMNC>21407</MCCMNC>
+      <NetworkName>T-2</NetworkName>
+      <NWID>NW01200</NWID>
+      <SPName>T-2</SPName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -168,27 +190,6 @@
         <NetworkLock>639BB</NetworkLock>
       </Security>
       <Network>
-        <NbMaxPDP>5</NbMaxPDP>
-        <MaxPDP>
-          <NetworkName>HT HR</NetworkName>
-          <MaxPDP2G>1</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>HR VIP</NetworkName>
-          <MaxPDP2G>3</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>TELE2</NetworkName>
-          <MaxPDP2G>1</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>Vodafone AL</NetworkName>
-          <MaxPDP2G>05</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>Telekom.al</NetworkName>
-          <MaxPDP2G>05</MaxPDP2G>
-        </MaxPDP>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
           <NetworkName>Vip SRB</NetworkName>
@@ -291,7 +292,7 @@
         <TelNum>06555400</TelNum>
       </Voicemail>
       <Voicemail>
-        <NetworkName>T-Mobile MK</NetworkName>
+        <NetworkName>Telekom.mk</NetworkName>
         <VoicemailName>Говорна пошта</VoicemailName>
         <TelNum>+38970121212</TelNum>
       </Voicemail>
@@ -342,7 +343,6 @@
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <CharSupport>automatic</CharSupport>
-        <SSMS>off</SSMS>
       </SMS>
       <MMS>
         <MmsSending>
@@ -354,28 +354,20 @@
         <MmsReceiving>
           <Home>auto</Home>
           <Roaming>manual</Roaming>
-          <SendReadRep>off</SendReadRep>
-          <SendDeliveryRep>off</SendDeliveryRep>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
         </MMSView>
       </MMS>
-      <Email>
-        <EmailReceiving>
-          <AutoPoll>off</AutoPoll>
-          <KeepServer>on</KeepServer>
-        </EmailReceiving>
-      </Email>
     </Messages>
     <Browser>
       <NbBookmark>1</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Yahoo!</BookmarkName>
-        <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -390,10 +382,12 @@
         <ProfMMS>Telenor MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Mobitel</NetworkName>
         <ProfBrowser>Mobilni Internet</ProfBrowser>
         <ProfMMS>Mobitel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -433,9 +427,9 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>T-Mobile MK</NetworkName>
-        <ProfBrowser>TM MK Internet</ProfBrowser>
-        <ProfMMS>T-Mobile MK MMS</ProfMMS>
+        <NetworkName>Telekom.mk</NetworkName>
+        <ProfBrowser>Telekom MK Internet</ProfBrowser>
+        <ProfMMS>Telekom MK MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -456,10 +450,12 @@
         <ProfMMS>VIP MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>HT HR</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>Telekom IMS</ProfIMS>
+        <ProfXCAP>HOS</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -500,8 +496,8 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Telekom.me</NetworkName>
-        <ProfBrowser>Telekom.me Postpaid</ProfBrowser>
-        <ProfMMS>Telekom.me MMS</ProfMMS>
+        <ProfBrowser>Telekom Internet</ProfBrowser>
+        <ProfMMS>Telekom MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -509,7 +505,7 @@
         <ProfBrowser>Mtel internet</ProfBrowser>
         <ProfMMS>Mtel MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>41</NbProfile>
+      <NbProfile>45</NbProfile>
       <Profile>
         <NetworkName>Telenor</NetworkName>
         <Editable>yes</Editable>
@@ -517,7 +513,6 @@
         <URL>http://www.telenor.rs</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -528,13 +523,28 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Telenor</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telenor MMS</ProfileName>
+        <URL>http://mms.telenor.rs/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>217.65.192.33</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Telemach</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>internet</ProfileName>
         <URL>http://mms.telemach.net:8002</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>91.185.221.85</ServAddr>
@@ -548,10 +558,9 @@
         <NetworkName>Mobitel</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Mobilni Internet</ProfileName>
-        <URL>http://www.telekom.si</URL>
+        <URL>www.telekom.si/zasebni-uporabniki?iskanje=preinstalled</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet</APN>
           <UserId>mobitel</UserId>
@@ -565,7 +574,6 @@
         <URL>http://mms.telekom.si</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>213.229.249.40</ServAddr>
@@ -578,13 +586,34 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Mobitel</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mobitel</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.012.000.004</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Si.mobil</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone live!</ProfileName>
         <URL>http://www.simobil.si</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.simobil.si</APN>
           <UserId>simobil</UserId>
@@ -598,7 +627,6 @@
         <URL>http://mmc</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>80.95.224.46</ServAddr>
@@ -617,7 +645,6 @@
         <URL>http://www.google.com</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.t-2.net</APN>
         </PSparam>
@@ -629,7 +656,6 @@
         <URL>http://www.mms.t-2.net:8002</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.20.18.137</ServAddr>
@@ -640,30 +666,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Telenor</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telenor MMS</ProfileName>
-        <URL>http://mms.telenor.rs/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>217.65.192.33</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>Vip SRB</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vip GPRS</ProfileName>
-        <URL>http://mobile.vipmobile.rs</URL>
+        <URL>https://www.vipmobile.rs/?utm_source=mobile_device&amp;utm_medium=homepage</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -680,7 +688,6 @@
         <URL>http://mms.vipmobile.rs</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -697,11 +704,8 @@
         <URL>http://m.mondo.rs</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.17.88.198</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>gprswap</APN>
@@ -716,7 +720,6 @@
         <URL>http://mms.mts064.telekom.rs/mms/wapenc</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.17.85.131</ServAddr>
@@ -735,12 +738,11 @@
         <URL>http://www.google.com</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>3g1</APN>
+          <APN>mtelsmart</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -750,7 +752,6 @@
         <URL>http://mmsc.mtel.ba/mms/wapenc</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>192.168.61.11</ServAddr>
@@ -761,13 +762,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>T-Mobile MK</NetworkName>
+        <NetworkName>Telekom.mk</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>TM MK Internet</ProfileName>
+        <ProfileName>Telekom MK Internet</ProfileName>
         <URL>http://m.idividi.com.mk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -778,13 +778,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>T-Mobile MK</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>T-Mobile MK MMS</ProfileName>
+        <NetworkName>Telekom.mk</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Telekom MK MMS</ProfileName>
         <URL>http://mms.t-mobile.com.mk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>62.162.155.227</ServAddr>
@@ -803,7 +802,6 @@
         <URL>http://wap.planet.mk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
           <Port>8080</Port>
@@ -821,7 +819,6 @@
         <URL>http://mm</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>212.158.178.036</ServAddr>
@@ -840,12 +837,6 @@
         <URL>http://portal.vipoperator.com.mk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>78.40.0.1</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
         <PSparam>
           <APN>vipoperator</APN>
           <UserId>vipoperator</UserId>
@@ -859,7 +850,6 @@
         <URL>http://mmsc.vipoperator.com.mk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <ServAddr>78.40.0.1</ServAddr>
           <Port>8080</Port>
@@ -872,27 +862,26 @@
       </Profile>
       <Profile>
         <NetworkName>HT HR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <URL>http://m.tportal.hr</URL>
-        <Auth>none</Auth>
+        <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
         <PSparam>
           <APN>internet.ht.hr</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>HT HR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.t-mobile.hr/servlets/mms</URL>
-        <Auth>none</Auth>
+        <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>010.012.000.004</ServAddr>
@@ -903,13 +892,42 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>HT HR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>HT HR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>HOS</ProfileName>
+        <URL>http://mms.t-mobile.hr/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.012.000.004</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>HR VIP</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Broadband</ProfileName>
         <URL>http://live.vip.hr</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -924,7 +942,6 @@
         <URL>http://mms.vipnet.hr/servlets/mms</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>212.091.099.091</ServAddr>
@@ -940,10 +957,9 @@
         <NetworkName>TELE2</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Tele2 Internet</ProfileName>
-        <URL>http://wap.tele2.hr</URL>
+        <URL>http://www.tele2.hr</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -958,7 +974,7 @@
         <URL>http://mmsc.tele2.hr</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1400</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>193.012.040.066</ServAddr>
@@ -975,7 +991,6 @@
         <URL>http://mmsc.vodafone.al</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>10.0.9.2</ServAddr>
@@ -994,7 +1009,6 @@
         <URL>http://www.vodafone.al</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -1011,7 +1025,6 @@
         <URL>http://www.telekom.com.al</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.t</APN>
         </PSparam>
@@ -1023,7 +1036,6 @@
         <URL>http://195.167.65.220:8002</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>010.010.010.020</ServAddr>
@@ -1040,7 +1052,6 @@
         <URL>http://www.hteronet.ba</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
           <Port>8080</Port>
@@ -1056,7 +1067,6 @@
         <URL>http://mms.gprs.eronet.ba/mms/wapenc</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>010.012.003.011</ServAddr>
@@ -1073,7 +1083,6 @@
         <URL>https://bhmobile.bhtelecom.ba</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -1088,7 +1097,6 @@
         <URL>http://mms.bhmobile.ba/servlets/mms</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>195.222.056.041</ServAddr>
@@ -1105,7 +1113,6 @@
         <URL>http://wap.bilogdje.com</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>192.168.246.5</ServAddr>
@@ -1124,7 +1131,6 @@
         <URL>http://mm.vor.telenor.me</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>192.168.246.5</ServAddr>
@@ -1139,18 +1145,12 @@
       <Profile>
         <NetworkName>Telekom.me</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Telekom.me Postpaid</ProfileName>
+        <ProfileName>Telekom Internet</ProfileName>
         <URL>www.telekom.me</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.0.5.19</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
         <PSparam>
-          <APN>tmcg-wnw</APN>
+          <APN>tmcg-4g</APN>
           <UserId>38267</UserId>
           <Password>38267</Password>
         </PSparam>
@@ -1158,16 +1158,10 @@
       <Profile>
         <NetworkName>Telekom.me</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Telekom.me MMS</ProfileName>
+        <ProfileName>Telekom MMS</ProfileName>
         <URL>http://192.168.180.100/servlets/mms</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.0.5.19</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
         <PSparam>
           <APN>mms</APN>
           <UserId>38267</UserId>
@@ -1181,7 +1175,6 @@
         <URL>http://www.mtel.me</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -1198,7 +1191,6 @@
         <URL>http://mm.mmsmtel.com/</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.25.25.23</ServAddr>
@@ -1210,5 +1202,46 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>HT HR</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Mobitel</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
