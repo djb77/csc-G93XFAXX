@@ -1,99 +1,103 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Chile</Country>
     <CountryISO>CL</CountryISO>
     <Region>LA</Region>
     <SalesCode>CHO</SalesCode>
-    <NbNetworkInfo>19</NbNetworkInfo>
+    <NbNetworkInfo>16</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>73002</MCCMNC>
       <NetworkName>Movistar</NetworkName>
+      <NWID>NW00766</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73001</MCCMNC>
       <NetworkName>ENTEL</NetworkName>
+      <NWID>NW00467</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73010</MCCMNC>
       <NetworkName>ENTEL</NetworkName>
+      <NWID>NW00467</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73003</MCCMNC>
       <NetworkName>Claro</NetworkName>
+      <NWID>NW00243</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73007</MCCMNC>
       <NetworkName>GTD Móvil</NetworkName>
+      <NWID>NW00552</NWID>
       <SPCode>01</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73601</MCCMNC>
       <NetworkName>Viva</NetworkName>
+      <NWID>NW01463</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73602</MCCMNC>
       <NetworkName>entel movil</NetworkName>
+      <NWID>NW00468</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73603</MCCMNC>
       <NetworkName>Tigo</NetworkName>
+      <NWID>NW01306</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73007</MCCMNC>
       <NetworkName>virgin mobile</NetworkName>
+      <NWID>NW01460</NWID>
       <SPCode>02</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73008</MCCMNC>
       <NetworkName>VTR</NetworkName>
+      <NWID>NW01527</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73007</MCCMNC>
       <NetworkName>GTEL Netline</NetworkName>
+      <NWID>NW00553</NWID>
       <SPCode>03</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>302370</MCCMNC>
-      <NetworkName>VTR</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>302720</MCCMNC>
-      <NetworkName>VTR</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>30237</MCCMNC>
-      <NetworkName>VTR</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>30272</MCCMNC>
-      <NetworkName>VTR</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73009</MCCMNC>
       <NetworkName>WOM</NetworkName>
+      <NWID>NW01554</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73001</MCCMNC>
       <NetworkName>Falabella</NetworkName>
+      <NWID>NW00460</NWID>
       <SPCode>300</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73010</MCCMNC>
       <NetworkName>Falabella</NetworkName>
+      <NWID>NW00460</NWID>
       <SPCode>300</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>73007</MCCMNC>
       <NetworkName>Colo-Colo</NetworkName>
+      <NWID>NW00281</NWID>
       <SPCode>04</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>73021</MCCMNC>
+      <NetworkName>WOM</NetworkName>
+      <NWID>NW01554</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>none</OneSIMLock>
+        <OneSIMLock>off</OneSIMLock>
       </Security>
       <Network>
         <NbFastDormancy>26</NbFastDormancy>
@@ -311,11 +315,9 @@
         <DeliveryReport>off</DeliveryReport>
         <CharSupport>gsmalpha</CharSupport>
         <CellBroadcast>on</CellBroadcast>
-        <NbCellBroadcastChannel>4</NbCellBroadcastChannel>
+        <NbCellBroadcastChannel>2</NbCellBroadcastChannel>
         <CellBroadcastChannel>919</CellBroadcastChannel>
         <CellBroadcastChannel>4370</CellBroadcastChannel>
-        <CellBroadcastChannel>519</CellBroadcastChannel>
-        <CellBroadcastChannel>4380</CellBroadcastChannel>
         <PreviewMessage>on</PreviewMessage>
       </SMS>
       <MMS>
@@ -334,9 +336,8 @@
       <NbBookmark>1</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Yahoo!</BookmarkName>
-        <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -345,16 +346,14 @@
     <Connections>
       <NbProfileHandle>13</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>Movistar</NetworkName>
-        <ProfBrowser>Movistar APLICACIONES</ProfBrowser>
-        <ProfMMS>Movistar MMS</ProfMMS>
+        <ProfBrowser>Movistar INTERNET</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>ENTEL</NetworkName>
         <ProfBrowser>Internet Movil</ProfBrowser>
-        <ProfMMS>MMS Entel</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -397,10 +396,9 @@
         <ProfMMS>Virgin MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>VTR</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
-        <ProfMMS>MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -408,10 +406,9 @@
         <ProfBrowser>Gtel</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>WOM</NetworkName>
         <ProfBrowser>Internet WOM</ProfBrowser>
-        <ProfMMS>MMS WOM</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -419,37 +416,17 @@
         <ProfBrowser>Internet Móvil Falabella</ProfBrowser>
         <ProfMMS>Falabella Chile MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>25</NbProfile>
+      <NbProfile>20</NbProfile>
       <Profile>
         <NetworkName>Movistar</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Movistar APLICACIONES</ProfileName>
+        <ProfileName>Movistar INTERNET</ProfileName>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>wap.tmovil.cl</APN>
           <UserId>wap</UserId>
           <Password>wap</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Movistar</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Movistar MMS</ProfileName>
-        <URL>http://mms.movistar.cl</URL>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.17.8.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.tmovil.cl</APN>
-          <UserId>mms</UserId>
-          <Password>mms</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -459,29 +436,8 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>bam.entelpcs.cl</APN>
-          <UserId>entelpcs</UserId>
-          <Password>entelpcs</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>ENTEL</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>MMS Entel</ProfileName>
-        <URL>http://mmsc.entelpcs.cl</URL>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.99.0.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.entelpcs.cl</APN>
           <UserId>entelpcs</UserId>
           <Password>entelpcs</Password>
         </PSparam>
@@ -493,7 +449,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>bam.clarochile.cl</APN>
           <UserId>clarochile</UserId>
@@ -508,7 +463,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.23.200.200</ServAddr>
@@ -524,11 +478,9 @@
         <NetworkName>GTD Móvil</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>web</ProfileName>
-        <URL>http://m.gtdmovil.cl</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>web.gtdmovil.cl</APN>
           <UserId>webgtd</UserId>
@@ -539,11 +491,9 @@
         <NetworkName>Colo-Colo</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>ColoColoMovil</ProfileName>
-        <URL>http://www.colocolomovil.cl</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>cc.telestar.cl</APN>
         </PSparam>
@@ -555,7 +505,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.nuevatel.com</APN>
         </PSparam>
@@ -568,7 +517,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>192.168.101.004</ServAddr>
@@ -585,7 +533,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.tigo.bo</APN>
         </PSparam>
@@ -598,7 +545,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.25.100.8</ServAddr>
@@ -615,7 +561,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>4g.entel</APN>
         </PSparam>
@@ -628,7 +573,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>172.27.7.10</ServAddr>
@@ -645,7 +589,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>int.movil.com.bo</APN>
         </PSparam>
@@ -654,11 +597,9 @@
         <NetworkName>virgin mobile</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Virgin Internet Movil</ProfileName>
-        <URL>http://www.virginmobile.cl</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>imovil.virginmobile.cl</APN>
         </PSparam>
@@ -671,7 +612,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>mmsc.virginmobile.cl</APN>
         </PSparam>
@@ -683,7 +623,6 @@
         <Auth>secure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>movil.vtr.com</APN>
           <UserId>vtrmovil</UserId>
@@ -691,47 +630,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>VTR</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>MMS</ProfileName>
-        <URL>http://192.168.94.162:19090/was</URL>
-        <Auth>none</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.94.210</ServAddr>
-          <Port>9028</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.vtr.com</APN>
-          <UserId>mms</UserId>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>VTR</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Bam</ProfileName>
-        <Auth>secure</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>bam.vtr.com</APN>
-          <UserId>vtr</UserId>
-          <Password>vtr</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>GTEL Netline</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Gtel</ProfileName>
-        <URL>http://www.google.com</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>gtel.netline.net</APN>
         </PSparam>
@@ -743,37 +647,17 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>WOM</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>MMS WOM</ProfileName>
-        <URL>http://3gmms.nextelmovil.cl</URL>
-        <Auth>none</Auth>
-        <Bearer>ps</Bearer>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>129.192.129.104</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>Falabella</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Internet Móvil Falabella</ProfileName>
-        <URL>http://www.movilfalabella.com</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet.movilfalabella.com</APN>
         </PSparam>
@@ -786,7 +670,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>proxy.movilfalabella.com</ServAddr>
