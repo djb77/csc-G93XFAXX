@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>AUSTRIA</Country>
     <CountryISO>AT</CountryISO>
     <Region>EUR</Region>
@@ -10,12 +10,14 @@
     <NetworkInfo>
       <MCCMNC>23207</MCCMNC>
       <NetworkName>tele.ring</NetworkName>
+      <NWID>NW01244</NWID>
       <CodeType>DEC</CodeType>
       <SubsetCode>7</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23207</MCCMNC>
       <NetworkName>tele.ring</NetworkName>
+      <NWID>NW01244</NWID>
       <CodeType>DEC</CodeType>
       <SubsetCode>255</SubsetCode>
     </NetworkInfo>
@@ -70,7 +72,6 @@
         <TouchTone>off</TouchTone>
         <ExtraSound>
           <ConnectTone>off</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
       </Sound>
       <Phone>
@@ -127,7 +128,6 @@
         <EmailReceiving>
           <AutoPoll>off</AutoPoll>
           <PollTime>off</PollTime>
-          <KeepServer>on</KeepServer>
         </EmailReceiving>
         <NbAccount>2</NbAccount>
         <Account>
@@ -217,7 +217,9 @@
       <NbProfile>2</NbProfile>
       <Profile>
         <NetworkName>tele.ring</NetworkName>
-        <Editable>no</Editable>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
         <ProfileName>tele.ring web</ProfileName>
         <URL>http://fun.telering.at</URL>
         <Auth>normal</Auth>
@@ -234,7 +236,9 @@
       </Profile>
       <Profile>
         <NetworkName>tele.ring</NetworkName>
-        <Editable>no</Editable>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
         <ProfileName>tele.ring mms</ProfileName>
         <URL>http://relay.mms.telering.at</URL>
         <Auth>normal</Auth>

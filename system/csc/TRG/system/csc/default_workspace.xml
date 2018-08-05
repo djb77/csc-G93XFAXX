@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 
 <!--
-Copyright (C) 2009 The Android Open Source Project
+Copyright (C) 2016 The Android Open Source Project
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -16,148 +16,150 @@ limitations under the License.
 -->
 
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
     <home>
-        <!--  screen [0]  -->
-        <!-- .appwidget.WeatherAppWidget -->
-        <appwidget
-            launcher:packageName="com.sec.android.daemonapp" 
-            launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget" 
-            launcher:screen="0" 
-            launcher:x="0" 
-            launcher:y="0" 
-            launcher:spanX="4" 
-            launcher:spanY="1" />
+        <!-- appwidget : Weather -->
+        <appwidget 
+            screen="1" 
+            packageName="com.sec.android.daemonapp" 
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget" 
+            x="0" 
+            y="0" 
+            spanX="4" 
+            spanY="1" />
 
+        <!-- appwidget : Google -->
+        <appwidget 
+            screen="1" 
+            packageName="com.google.android.googlequicksearchbox" 
+            className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
+            x="0" 
+            y="2" 
+            spanX="4" 
+            spanY="1" />
 
-        <!-- .SearchWidgetProvider -->
-        <appwidget
-            launcher:packageName="com.google.android.googlequicksearchbox" 
-            launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
-            launcher:screen="0" 
-            launcher:x="0" 
-            launcher:y="2" 
-            launcher:spanX="4" 
-            launcher:spanY="1" />
+        <!-- Camera -->
+        <favorite 
+            screen="1" 
+            packageName="com.sec.android.app.camera" 
+            className="com.sec.android.app.camera.Camera" 
+            x="0" 
+            y="3" />
 
+        <!-- my tele.ring -->
+        <favorite 
+            screen="1" 
+            packageName="at.tmobile.android.mytra" 
+            className="at.tmobile.android.myt.activity.MainActivity" 
+            x="1" 
+            y="3" />
 
-        <!--  -->
-        <favorite
-            launcher:packageName="com.sec.android.app.camera" 
-            launcher:className="com.sec.android.app.camera.Camera" 
-            launcher:screen="0" 
-            launcher:x="0" 
-            launcher:y="3" />
-	    
-        <!-- Gallery -->
-        <favorite
-            launcher:packageName="com.sec.android.gallery3d" 
-            launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity"
-            launcher:screen="0"
-            launcher:x="1"
-            launcher:y="3" />
+        <!-- folder : Google -->
+        <folder 
+            screen="1" 
+            title="Google" 
+            x="2" 
+            y="3">
+            <!-- Google -->
+            <favorite 
+                screen="0" 
+                packageName="com.google.android.googlequicksearchbox" 
+                className="com.google.android.googlequicksearchbox.SearchActivity" />
 
-        <!-- Folder : Google -->
-        <folder
-            launcher:screen="0" 
-            launcher:title="Google" 
-            launcher:x="2" 
-            launcher:y="3" >
-            launcher:hideAddButton="true">
-            <!-- null -->
-            <favorite
-                launcher:screen="0" 
-                launcher:packageName="com.google.android.googlequicksearchbox" 
-                launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="1" 
-                launcher:packageName="com.google.android.gm" 
-                launcher:className="com.google.android.gm.ConversationListActivityGmail" />
-            <!-- null -->
-            <favorite
-                launcher:screen="2" 
-                launcher:packageName="com.google.android.apps.maps" 
-                launcher:className="com.google.android.maps.MapsActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="3" 
-                launcher:packageName="com.google.android.youtube" 
-                launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="4" 
-                launcher:packageName="com.google.android.apps.docs" 
-                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="5" 
-                launcher:packageName="com.google.android.music" 
-                launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="6" 
-                launcher:packageName="com.google.android.videos" 
-                launcher:className="com.google.android.youtube.videos.EntryPoint" />
-            <!-- null -->
-            <favorite
-                launcher:screen="7" 
-                launcher:packageName="com.google.android.talk" 
-                launcher:className="com.google.android.talk.SigningInActivity" />
-            <!-- null -->
-            <favorite
-                launcher:screen="8" 
-                launcher:packageName="com.google.android.apps.photos" 
-                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
-        </folder> 
+            <!-- Gmail -->
+            <favorite 
+                screen="1" 
+                packageName="com.google.android.gm" 
+                className="com.google.android.gm.ConversationListActivityGmail" />
+            <!-- Maps -->
+            <favorite 
+                screen="2" 
+                packageName="com.google.android.apps.maps" 
+                className="com.google.android.maps.MapsActivity" />
+            <!-- YouTube -->
+            <favorite 
+                screen="3" 
+                packageName="com.google.android.youtube" 
+                className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+            <!-- Drive -->
+            <favorite 
+                screen="4" 
+                packageName="com.google.android.apps.docs" 
+                className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+            <!-- Google Play Music -->
+            <favorite 
+                screen="5" 
+                packageName="com.google.android.music" 
+                className="com.android.music.activitymanagement.TopLevelActivity" />
+            <!-- Google Play Movies & TV -->
+            <favorite 
+                screen="6" 
+                packageName="com.google.android.videos" 
+                className="com.google.android.youtube.videos.EntryPoint" />
+            <!-- Hangouts -->
+            <favorite 
+                screen="7" 
+                packageName="com.google.android.talk" 
+                className="com.google.android.talk.SigningInActivity" />
+            <!-- Photos -->
+            <favorite 
+                screen="8" 
+                packageName="com.google.android.apps.photos" 
+                className="com.google.android.apps.photos.home.HomeActivity" />
+        </folder>
 
+        <!-- Google Play Store -->
+        <favorite 
+            screen="1" 
+            packageName="com.android.vending" 
+            className="com.android.vending.AssetBrowserActivity" 
+            x="3" 
+            y="3" />
 
-        <!--  -->
-        <favorite
-            launcher:packageName="com.android.vending" 
-            launcher:className="com.android.vending.AssetBrowserActivity" 
-            launcher:screen="0" 
-            launcher:x="3" 
-            launcher:y="3" />
-
-        <!--  screen [1]  -->
         <!-- Facebook -->
-        <favorite
-            launcher:packageName="com.facebook.katana" 
-            launcher:className="com.facebook.katana.LoginActivity" 
-            launcher:screen="1" 
-            launcher:x="1" 
-            launcher:y="3" />
+        <favorite 
+            screen="2" 
+            packageName="com.facebook.katana" 
+            className="com.facebook.katana.LoginActivity" 
+            x="0" 
+            y="3" />
 
-        <!--  -->
-        <favorite
-            launcher:packageName="at.lieferservice.android" 
-            launcher:className="com.takeaway.android.Startup" 
-            launcher:screen="1" 
-            launcher:x="2" 
-            launcher:y="3" />
+        <!-- Lieferservice -->
+        <favorite 
+            screen="2" 
+            packageName="at.lieferservice.android" 
+            className="com.takeaway.android.Startup" 
+            x="3" 
+            y="3" />
 
-    </home> 
+    </home>
 
-    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+
     <hotseat>
-        <!--  -->
-        <favorite
-            launcher:packageName="com.samsung.android.contacts" 
-            launcher:className="com.android.dialer.DialtactsActivity" 
-            launcher:screen="0" />
+        <!-- Contacts -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.contacts" 
+            className="com.android.dialer.DialtactsActivity" />
 
-        <!--  -->
-        <favorite
-            launcher:packageName="com.samsung.android.messaging" 
-            launcher:className="com.android.mms.ui.ConversationComposer" 
-            launcher:screen="1" />
+        <!-- Messages -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.messaging" 
+            className="com.android.mms.ui.ConversationComposer" />
 
-        <!--  -->
-        <favorite
-            launcher:packageName="com.android.chrome" 
-            launcher:className="com.google.android.apps.chrome.Main" 
-            launcher:screen="2" />
+        <!-- Email -->
+        <favorite 
+            screen="2" 
+            packageName="com.samsung.android.email.provider" 
+            className="com.samsung.android.email.ui.activity.MessageListXL" />
 
-    </hotseat> 
+        <!-- Chrome -->
+        <favorite 
+            screen="3" 
+            packageName="com.android.chrome" 
+            className="com.google.android.apps.chrome.Main" />
 
-</favorites> 
+    </hotseat>
+
+</favorites>
