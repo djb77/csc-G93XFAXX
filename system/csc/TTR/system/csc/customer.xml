@@ -31,7 +31,6 @@
       <Sound>
         <ExtraSound>
           <ConnectTone>on</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
       </Sound>
       <Phone>
@@ -74,7 +73,6 @@
       <Email>
         <EmailReceiving>
           <AutoPoll>off</AutoPoll>
-          <KeepServer>on</KeepServer>
         </EmailReceiving>
       </Email>
     </Messages>

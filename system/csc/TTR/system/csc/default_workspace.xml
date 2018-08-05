@@ -23,20 +23,21 @@
             launcher:spanX="4" 
             launcher:spanY="1" />
 
-       <!-- Gallery -->
+
+        <!-- SamsungPay replacement is Gallery-->
         <favorite
-            launcher:packageName="com.sec.android.gallery3d" 
-            launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity" 
-            launcher:screen="0" 
-            launcher:x="0" 
-            launcher:y="3" 
-            launcher:spanX="1" 
+            launcher:packageName="com.sec.android.gallery3d"
+            launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="3"
+            launcher:spanX="1"
             launcher:spanY="1" />
 
-        <!-- Camera -->
+        <!-- Calendar -->
         <favorite
-            launcher:packageName="com.sec.android.app.camera" 
-            launcher:className="com.sec.android.app.camera.Camera" 
+            launcher:packageName="com.android.calendar" 
+            launcher:className="com.android.calendar.AllInOneActivity" 
             launcher:screen="0" 
             launcher:x="1" 
             launcher:y="3" 
@@ -59,8 +60,7 @@
             launcher:screen="0" 
             launcher:title="Google"
             launcher:x="3" 
-            launcher:y="3"
-            launcher:hideAddButton="true">
+            launcher:y="3">
             <!-- Google -->
             <favorite
                 launcher:screen="0" 
@@ -215,6 +215,12 @@
             launcher:packageName="com.sec.android.app.sbrowser" 
             launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" 
             launcher:screen="2" />
+
+        <!-- Camera -->
+        <favorite
+            launcher:packageName="com.sec.android.app.camera" 
+            launcher:className="com.sec.android.app.camera.Camera" 
+            launcher:screen="3" />
 
     </hotseat> 
 
