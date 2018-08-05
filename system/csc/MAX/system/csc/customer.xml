@@ -10,6 +10,7 @@
     <NetworkInfo>
       <MCCMNC>23203</MCCMNC>
       <NetworkName>T-Mobile A</NetworkName>
+      <NWID>NW01333</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -64,7 +65,6 @@
         <TouchTone>off</TouchTone>
         <ExtraSound>
           <ConnectTone>off</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
         <NbAlarmTone>1</NbAlarmTone>
         <AlarmTone src="/Customer/MAX/AlarmTone/T-Mobile_Alarmtone.mp3" default="true">
@@ -134,7 +134,6 @@
         <EmailReceiving>
           <AutoPoll>off</AutoPoll>
           <PollTime>off</PollTime>
-          <KeepServer>on</KeepServer>
         </EmailReceiving>
         <NbAccount>1</NbAccount>
         <Account>
@@ -180,7 +179,7 @@
         <NetworkName>T-Mobile A</NetworkName>
         <Editable>no</Editable>
         <BookmarkName>Musik</BookmarkName>
-        <URL>http://www.t-mobile-favoriten.at/go/bm2music/</URL>
+        <URL>http://www.t-mobile-favoriten.at/go/bm2music</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>T-Mobile A</NetworkName>
@@ -209,14 +208,16 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>T-Mobile A</NetworkName>
-        <ProfBrowser>T-Mobile LTE</ProfBrowser>
+        <ProfBrowser>T-Mobile Internet</ProfBrowser>
         <ProfMMS>T-Mobile MMS</ProfMMS>
       </ProfileHandle>
       <NbProfile>2</NbProfile>
       <Profile>
         <NetworkName>T-Mobile A</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>T-Mobile LTE</ProfileName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>T-Mobile Internet</ProfileName>
         <URL>http://www.t-mobile-favoriten.at</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -232,7 +233,9 @@
       </Profile>
       <Profile>
         <NetworkName>T-Mobile A</NetworkName>
-        <Editable>no</Editable>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
         <ProfileName>T-Mobile MMS</ProfileName>
         <URL>http://mmsc.t-mobile.at/servlets/mms</URL>
         <Auth>normal</Auth>
