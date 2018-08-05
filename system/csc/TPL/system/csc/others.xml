@@ -19,9 +19,7 @@
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Email_EnablePopupWhenChangingSyncSchedule>TRUE</CscFeature_Email_EnablePopupWhenChangingSyncSchedule>
 
-    <CscFeature_Web_SetUserAgent>TMO</CscFeature_Web_SetUserAgent>
     <CscFeature_Web_DisableRedirectionChooser>TRUE</CscFeature_Web_DisableRedirectionChooser>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Web_DisableNetworkLinkPrediction>true</CscFeature_Web_DisableNetworkLinkPrediction>
     <CscFeature_Web_DefBookmarkFolderName>Chrome,T-Mobile</CscFeature_Web_DefBookmarkFolderName>
     <CscFeature_GMS_DisableSetupWizard>FALSE</CscFeature_GMS_DisableSetupWizard>
@@ -57,28 +55,27 @@
     <CscFeature_NFC_ConfigAdvancedSettings>Disable</CscFeature_NFC_ConfigAdvancedSettings>
     <CscFeature_NFC_DefaultCardModeConfig>DH:UICC</CscFeature_NFC_DefaultCardModeConfig>
     <CscFeature_SmartcardSvc_ConfigInitConnection>SIMIO</CscFeature_SmartcardSvc_ConfigInitConnection>
-    <CscFeature_Framework_DisableForceClosePopup>true</CscFeature_Framework_DisableForceClosePopup>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>TRUE</CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>    <CscFeature_Launcher_DefaultPageNumber>1</CscFeature_Launcher_DefaultPageNumber>
 
-
-    <CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
     <CscFeature_mCommerce_WalletMgrConfig>Disable</CscFeature_mCommerce_WalletMgrConfig>
     <CscFeature_Common_AutoConfigurationType>DPL,DT</CscFeature_Common_AutoConfigurationType>
     
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
 
+    <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
+    <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableRCSe>FALSE</CscFeature_IMS_EnableRCSe> 
-    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE> 
+    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>false</CscFeature_IMS_EnableLTEVideoCall> 
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence> 
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
 	
     <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
-    <CscFeature_Setting_HideApnList>IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>IMS,hos,HOS</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigFixedApn>xcap</CscFeature_RIL_ConfigFixedApn>
 	
@@ -88,20 +85,21 @@
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_PDPRetryMechanism4>DTR</CscFeature_RIL_PDPRetryMechanism4>
-    <CscFeature_RIL_BlockUssdDuringVolteCall>true</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_ConfigNetworkNameForEpdg>T-Mobile.pl WiFi</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_RIL_ConfigVolteRedialPolicy>DTM</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
-    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck,ERIS,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
-    <CscFeature_VoiceCall_ConfigOpStyleForWfc>ChangePrefModeRoamingNoSimCheck</CscFeature_VoiceCall_ConfigOpStyleForWfc>
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>WFC_TITLE_FROM_CSC</CscFeature_VoiceCall_ConfigOpStyleForWfc>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
 	<CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigOpBrandingForWFC>T-Mobile.pl WiFi</CscFeature_Common_ConfigOpBrandingForWFC>
 	<CscFeature_RIL_ConfigNetworkNameForEpdg>T-Mobile.pl Wi-Fi</CscFeature_RIL_ConfigNetworkNameForEpdg>
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
 
   </FeatureSet>
 </SamsungMobileFeauture>

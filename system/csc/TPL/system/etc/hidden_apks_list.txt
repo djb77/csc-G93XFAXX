@@ -1,0 +1,6 @@
+/hidden/app/(Granie_na_czekanie)_Granie_na_czekanie_2.3.3.apk
+/hidden/app/messenger-stub.apk
+/hidden/app/(MyBox_PL)_MyBox_3.0.7.5.apk
+/hidden/app/(MyDysk_PL)_MyDysk_PL_1.0.16.apk
+/hidden/app/(NaviExpert_PL)_Nawigacja_T-Mobile_11.0.267.apk
+/hidden/app/(Onet_News)_Onet_News_4.11.3606.apk
