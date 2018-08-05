@@ -10,14 +10,17 @@
     <NetworkInfo>
       <MCCMNC>26806</MCCMNC>
       <NetworkName>P TMN</NetworkName>
+      <NWID>NW01011</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>26801</MCCMNC>
       <NetworkName>vodafone P</NetworkName>
+      <NWID>NW01504</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>26803</MCCMNC>
       <NetworkName>P Optimus</NetworkName>
+      <NWID>NW01010</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -91,19 +94,6 @@
         <NetworkLock>639BB</NetworkLock>
       </Security>
       <Network>
-        <NbMaxPDP>3</NbMaxPDP>
-        <MaxPDP>
-          <NetworkName>P Optimus</NetworkName>
-          <MaxPDP2G>3</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>P TMN</NetworkName>
-          <MaxPDP2G>3</MaxPDP2G>
-        </MaxPDP>
-        <MaxPDP>
-          <NetworkName>vodafone P</NetworkName>
-          <MaxPDP2G>3</MaxPDP2G>
-        </MaxPDP>
         <NbFastDormancy>3</NbFastDormancy>
         <FastDormancy>
           <NetworkName>P TMN</NetworkName>
@@ -167,7 +157,7 @@
         <DateTimeFormat>
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
-          <TimezoneUpdate>off</TimezoneUpdate>
+          <TimezoneUpdate>on</TimezoneUpdate>
         </DateTimeFormat>
         <VisiblePassword>off</VisiblePassword>
         <UnknownSource>off</UnknownSource>
@@ -203,9 +193,7 @@
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <CharSupport>gsmalpha</CharSupport>
-        <SSMS>off</SSMS>
         <DeleteOldMessage>off</DeleteOldMessage>
-        <FontSizeByVolumeKey>on</FontSizeByVolumeKey>
         <PreviewMessage>on</PreviewMessage>
       </SMS>
       <MMS>
@@ -227,8 +215,7 @@
       </MMS>
       <Email>
         <EmailReceiving>
-          <AutoPoll>off</AutoPoll>
-          <KeepServer>on</KeepServer>
+          <PollTime>off</PollTime>
         </EmailReceiving>
       </Email>
     </Messages>
@@ -256,16 +243,14 @@
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>no</Editable>
-        <Index>1</Index>
-        <BookmarkName>Yahoo!</BookmarkName>
-        <URL>https://www.yahoo.com/?tsrc=samsung_qa</URL>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://www.samsung.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>no</Editable>
-        <Index>2</Index>
-        <BookmarkName>Samsung</BookmarkName>
-        <URL>http://www.samsung.com</URL>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -284,18 +269,18 @@
         <NetworkName>vodafone P</NetworkName>
         <ProfBrowser>Vodafone Net2</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
-        <ProfIntSharing>vodafone internet</ProfIntSharing>
+        <ProfIntSharing>Internet Vodafone</ProfIntSharing>
         <ProfIMS>Vodafone IMS</ProfIMS>
         <ProfXCAP>Vodafone Net2</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>P Optimus</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
-        <ProfIntSharing>HotSpot</ProfIntSharing>
+        <ProfIntSharing>Internet</ProfIntSharing>
       </ProfileHandle>
-      <NbProfile>9</NbProfile>
+      <NbProfile>8</NbProfile>
       <Profile>
         <NetworkName>P TMN</NetworkName>
         <Editable>no</Editable>
@@ -303,7 +288,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
           <Port>80</Port>
@@ -319,7 +303,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -334,7 +317,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -350,7 +332,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>10.111.2.16</ServAddr>
@@ -368,7 +349,6 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>iproxy.vodafone.pt</ServAddr>
@@ -386,7 +366,6 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>062.169.066.005</ServAddr>
@@ -399,11 +378,10 @@
       <Profile>
         <NetworkName>vodafone P</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>vodafone internet</ProfileName>
+        <ProfileName>Internet Vodafone</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -414,28 +392,16 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>P Optimus</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>HotSpot</ProfileName>
-        <Auth>none</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>other</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>modem</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>vodafone P</NetworkName>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Vodafone IMS</ProfileName>
+        <URL>http://www.vodafone.pt</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
         <PSparam>
           <APN>ims</APN>
         </PSparam>
@@ -447,13 +413,9 @@
         <NetworkName>vodafone P</NetworkName>
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
-        <RCS>
-          <EnableRCS>true</EnableRCS>
-          <EnableRCSchat>true</EnableRCSchat>
-        </RCS>
         <VoLTE>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
           <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
@@ -463,7 +425,13 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
+        <RCS>
+          <EnableRCS>true</EnableRCS>
+          <Joyn>partial_blanded</Joyn>
+          <EnableRCSchat>true</EnableRCSchat>
+        </RCS>
       </Setting>
     </IMSSetting>
   </Settings>
