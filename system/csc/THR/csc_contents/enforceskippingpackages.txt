@@ -1,8 +1,8 @@
-24
-SamsungPayStub.apk
+25
 GalaxyCare.apk
-AxelSpringer.apk
+SamsungPayStub.apk
 smartcallprovider-open-release.apk
+AxelSpringer.apk
 AndroidPay_erasable_Hero.apk
 CnnPanel.apk
 NaverV_N.apk
@@ -17,9 +17,10 @@ imsservice.apk
 ImsSettings.apk
 ImsLogger+.apk
 ImsTelephonyService.apk
-SamsungUpdates.apk
 UnifiedWFC.apk
-RcsSettings.apk
 OMCAgent.apk
 Omc.apk
+SamsungUpdates.apk
+RcsSettings.apk
+AirtelStub.apk
 KT114Provider.apk
