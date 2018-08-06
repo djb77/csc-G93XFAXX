@@ -157,10 +157,11 @@
     <Connections>
       <NbProfileHandle>5</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>STC</NetworkName>
         <ProfBrowser>JAWALNet</ProfBrowser>
         <ProfMMS>ALJAWAL MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -175,17 +176,19 @@
         <ProfMMS>mobily MMS Postpaid</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Zain</NetworkName>
         <ProfBrowser>zain-gprs</ProfBrowser>
         <ProfMMS>zain-mms</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Xcap</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>Virgin</NetworkName>
         <ProfBrowser>Virgin Internet</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>9</NbProfile>
+      <NbProfile>12</NbProfile>
       <Profile>
         <NetworkName>STC</NetworkName>
         <Editable>yes</Editable>
@@ -210,6 +213,18 @@
         </Proxy>
         <PSparam>
           <APN>mms.net.sa</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>STC</NetworkName>
+        <Editable>no</Editable>
+        <IpVersion>ipv4</IpVersion>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -238,6 +253,30 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>zain</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Zain</NetworkName>
+        <Editable>no</Editable>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Zain</NetworkName>
+        <Editable>no</Editable>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>Xcap</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -304,5 +343,46 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>STC</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Zain</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
