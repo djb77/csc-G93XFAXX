@@ -10,86 +10,107 @@
     <NetworkInfo>
       <MCCMNC>43405</MCCMNC>
       <NetworkName>UCELL</NetworkName>
+      <NWID>NW01356</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43404</MCCMNC>
       <NetworkName>BEELINE UZ</NetworkName>
+      <NWID>NW00204</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43709</MCCMNC>
       <NetworkName>O!</NetworkName>
+      <NWID>NW00878</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43701</MCCMNC>
       <NetworkName>Beeline KG</NetworkName>
+      <NWID>NW00103</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43705</MCCMNC>
       <NetworkName>Megacom</NetworkName>
+      <NWID>NW00732</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43604</MCCMNC>
       <NetworkName>Babylon-Mobile</NetworkName>
+      <NWID>NW00182</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43601</MCCMNC>
       <NetworkName>Tcell</NetworkName>
+      <NWID>NW01211</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43602</MCCMNC>
       <NetworkName>Tcell</NetworkName>
+      <NWID>NW01211</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>43605</MCCMNC>
       <NetworkName>Beeline TJ</NetworkName>
+      <NWID>NW00105</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>42899</MCCMNC>
       <NetworkName>MobiCom</NetworkName>
+      <NWID>NW00736</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>42806</MCCMNC>
       <NetworkName>G-Mobile</NetworkName>
+      <NWID>NW00540</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>42888</MCCMNC>
       <NetworkName>Unitel</NetworkName>
+      <NWID>NW01402</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>40001</MCCMNC>
       <NetworkName>AZERCELL</NetworkName>
+      <NWID>NW00094</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>40002</MCCMNC>
       <NetworkName>Bakcell</NetworkName>
+      <NWID>NW00096</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>40004</MCCMNC>
       <NetworkName>Nar</NetworkName>
+      <NWID>NW00834</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28201</MCCMNC>
       <NetworkName>Geocell</NetworkName>
+      <NWID>NW00526</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28202</MCCMNC>
       <NetworkName>Magticom</NetworkName>
+      <NWID>NW00698</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28204</MCCMNC>
       <NetworkName>Beeline GE</NetworkName>
+      <NWID>NW00101</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28310</MCCMNC>
       <NetworkName>Orange</NetworkName>
+      <NWID>NW00958</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28305</MCCMNC>
       <NetworkName>VivaCell-MTS</NetworkName>
+      <NWID>NW01447</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>28301</MCCMNC>
       <NetworkName>Beeline AM</NetworkName>
+      <NWID>NW00100</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -165,18 +186,13 @@
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
         </MMSView>
       </MMS>
-      <Email>
-        <EmailReceiving>
-          <KeepServer>on</KeepServer>
-        </EmailReceiving>
-      </Email>
     </Messages>
     <Browser>
       <NbBookmark>1</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
-        <BookmarkName>Samsung Fun Club</BookmarkName>
-        <URL>http://wap.kz.samsungmobile.com</URL>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -273,9 +289,9 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Nar</NetworkName>
-        <ProfBrowser>Nar Internet</ProfBrowser>
-        <ProfMMS>Nar MMS</ProfMMS>
-        <ProfEmail>Nar Internet</ProfEmail>
+        <ProfBrowser>Nar DATA</ProfBrowser>
+        <ProfMMS>Nar MMSNEW</ProfMMS>
+        <ProfEmail>Nar DATA</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -711,7 +727,7 @@
       </Profile>
       <Profile>
         <NetworkName>Nar</NetworkName>
-        <ProfileName>Nar Internet</ProfileName>
+        <ProfileName>Nar DATA</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -723,8 +739,8 @@
       </Profile>
       <Profile>
         <NetworkName>Nar</NetworkName>
-        <ProfileName>Nar MMS</ProfileName>
-        <URL>http://mmsc</URL>
+        <ProfileName>Nar MMSNEW</ProfileName>
+        <URL>http://mmsc.nar.az</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
