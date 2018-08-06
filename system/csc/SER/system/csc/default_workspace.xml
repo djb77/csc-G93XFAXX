@@ -38,8 +38,8 @@ limitations under the License.
             launcher:y="2" 
             launcher:spanX="4" 
             launcher:spanY="1" />
-
-        <!-- Calendar -->
+			
+		<!-- Calendar -->
         <favorite
             launcher:packageName="com.android.calendar" 
             launcher:className="com.android.calendar.AllInOneActivity" 
@@ -56,6 +56,7 @@ limitations under the License.
             launcher:x="1" 
             launcher:y="3" />
 
+        
         <!-- Play Store -->
         <favorite
             launcher:packageName="com.android.vending" 
@@ -243,8 +244,8 @@ limitations under the License.
             launcher:packageName="com.sec.android.app.sbrowser" 
             launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" 
             launcher:screen="2" />
-
-        <!-- Camera -->
+		
+		 <!-- Camera -->
         <favorite
             launcher:packageName="com.sec.android.app.camera" 
             launcher:className="com.sec.android.app.camera.Camera" 
