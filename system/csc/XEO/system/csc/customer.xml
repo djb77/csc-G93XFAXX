@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Poland</Country>
     <CountryISO>PL</CountryISO>
     <Region>EUR</Region>
@@ -494,6 +494,7 @@
       <Profile>
         <NetworkName>PLAY</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>PLAY Internet</ProfileName>
         <Auth>none</Auth>
@@ -521,6 +522,7 @@
       <Profile>
         <NetworkName>PLAY</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>PLAY MMS</ProfileName>
         <URL>http://mmsc.play.pl/mms/wapenc</URL>

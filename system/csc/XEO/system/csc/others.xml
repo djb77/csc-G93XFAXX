@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00004</Version>
+  <Version>ED00005</Version>
   <Country>POLAND</Country>
   <CountryISO>PL</CountryISO>
   <SalesCode>XEO</SalesCode>
@@ -18,7 +18,7 @@
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
-    <CscFeature_RIL_ConfigAlwaysOnApn>mms_26003,mms_26006,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_26002,mms_26003,mms_26006,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigDataStatus>TRUE</CscFeature_RIL_ConfigDataStatus>
     <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
     <CscFeature_RIL_ConfigEpdgExtraFunction>GonePrefModeInRoaming_26002;,DefaultOn26002;,ShowPrefModeMenuSim_26002;,ERIS,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20</CscFeature_RIL_ConfigEpdgExtraFunction>
@@ -75,5 +75,7 @@
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_VoiceCall_SupportShowVowifiEndCall>TRUE</CscFeature_VoiceCall_SupportShowVowifiEndCall>
     <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>
+	<!-- The below tags were not in FMS -->
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
   </FeatureSet>
 </SamsungMobileFeature>
