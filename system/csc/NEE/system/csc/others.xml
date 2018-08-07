@@ -1,6 +1,6 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00004</Version>
+  <Version>ED00006</Version>
   <Country>SWEDEN</Country>
   <CountryISO>SE</CountryISO>
   <SalesCode>NEE</SalesCode>
@@ -24,7 +24,7 @@
     <CscFeature_Message_GalleryView4SingleImageMms>imagetext</CscFeature_Message_GalleryView4SingleImageMms>
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
-    <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_24201,mms_24202,mms_24205,mms_24206,mms_24214,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn> 
     <CscFeature_RIL_ConfigApnForDataUseException>ims_24201</CscFeature_RIL_ConfigApnForDataUseException>
     <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
     <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,ShowPrefModeMenuSim_23802_23877_24201_23801_23810_24412;,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20</CscFeature_RIL_ConfigEpdgExtraFunction>
@@ -76,5 +76,7 @@
     <CscFeature_Wifi_SupportEapFastReauth>TRUE</CscFeature_Wifi_SupportEapFastReauth>
     <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
     <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>
+	<!-- The below tags were not in FMS -->
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
   </FeatureSet>
 </SamsungMobileFeature>

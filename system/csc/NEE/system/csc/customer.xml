@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
@@ -113,8 +113,8 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23820</MCCMNC>
-      <NetworkName>CallMe &amp; DLG</NetworkName>
-      <NWID>NW00188</NWID>
+      <NetworkName>CallMe</NetworkName>
+      <NWID>NW01661</NWID>
       <SPCode>94</SPCode>
     </NetworkInfo>
     <NetworkInfo>
@@ -245,15 +245,15 @@
       <NWID>NW01595</NWID>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>24007</MCCMNC>
-      <NetworkName>Tele2comviq</NetworkName>
-      <NWID>NW01238</NWID>
-      <SubsetCode>4900</SubsetCode>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>24206</MCCMNC>
       <NetworkName>ice</NetworkName>
       <NWID>NW00603</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23820</MCCMNC>
+      <NetworkName>Mit Tele</NetworkName>
+      <NWID>NW01662</NWID>
+      <SPCode>93</SPCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -380,14 +380,12 @@
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Folder>Bookmarks</Folder>
         <BookmarkName>Google</BookmarkName>
         <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Folder>Bookmarks</Folder>
         <BookmarkName>Samsung</BookmarkName>
         <URL>http://m.samsung.com</URL>
       </Bookmark>
@@ -411,7 +409,7 @@
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>34</NbProfileHandle>
+      <NbProfileHandle>35</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Ålcom</NetworkName>
@@ -477,7 +475,7 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>CallMe &amp; DLG</NetworkName>
+        <NetworkName>CallMe</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
       </ProfileHandle>
@@ -649,7 +647,13 @@
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>98</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Mit Tele</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>100</NbProfile>
       <Profile>
         <NetworkName>MCP</NetworkName>
         <Editable>yes</Editable>
@@ -694,6 +698,7 @@
       <Profile>
         <NetworkName>Halebop</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop Internet</ProfileName>
         <Auth>none</Auth>
@@ -708,6 +713,8 @@
       </Profile>
       <Profile>
         <NetworkName>Halebop</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop MMS</ProfileName>
         <URL>http://mmsc</URL>
@@ -726,6 +733,7 @@
       <Profile>
         <NetworkName>Halebop S</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop Internet</ProfileName>
         <Auth>none</Auth>
@@ -740,6 +748,8 @@
       </Profile>
       <Profile>
         <NetworkName>Halebop S</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop MMS</ProfileName>
         <URL>http://mmsc</URL>
@@ -946,7 +956,7 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>CallMe &amp; DLG</NetworkName>
+        <NetworkName>CallMe</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
@@ -960,7 +970,7 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>CallMe &amp; DLG</NetworkName>
+        <NetworkName>CallMe</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.telia.dk</URL>
@@ -973,7 +983,7 @@
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>mmssp</APN>
+          <APN>www.mms.mtelia.dk</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1010,6 +1020,7 @@
       <Profile>
         <NetworkName>S Telia</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Telia Internet</ProfileName>
         <Auth>none</Auth>
@@ -1021,6 +1032,8 @@
       </Profile>
       <Profile>
         <NetworkName>S Telia</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Telia MMS</ProfileName>
         <URL>http://mmsc</URL>
@@ -1221,6 +1234,7 @@
       <Profile>
         <NetworkName>Telia N</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Telia Mobil</ProfileName>
         <Auth>normal</Auth>
@@ -1232,6 +1246,8 @@
       </Profile>
       <Profile>
         <NetworkName>Telia N</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Telia MMS</ProfileName>
         <URL>http://mm</URL>
@@ -1249,6 +1265,8 @@
       </Profile>
       <Profile>
         <NetworkName>OneCall</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>OneCall Internett</ProfileName>
         <Auth>normal</Auth>
@@ -1260,6 +1278,8 @@
       </Profile>
       <Profile>
         <NetworkName>OneCall</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>OneCall MMS</ProfileName>
         <URL>http://mmsc/</URL>
@@ -1277,8 +1297,8 @@
       </Profile>
       <Profile>
         <NetworkName>OneCall</NetworkName>
-        <IpVersion>ipv6</IpVersion>
-        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>IMS</ProfileName>
         <Auth>none</Auth>
@@ -1485,6 +1505,7 @@
       <Profile>
         <NetworkName>3 SE</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>3</ProfileName>
         <Auth>normal</Auth>
@@ -1500,6 +1521,7 @@
       <Profile>
         <NetworkName>3 SE</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>3mms</ProfileName>
         <URL>http://mms.tre.se</URL>
@@ -1513,12 +1535,13 @@
           <Port>8799</Port>
         </Proxy>
         <PSparam>
-          <APN>data.tre.se</APN>
+          <APN>services</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>3 DK</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>3 Locked</ProfileName>
         <URL>http://m.3.dk</URL>
@@ -1535,6 +1558,7 @@
       <Profile>
         <NetworkName>3 DK</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>3mms</ProfileName>
         <URL>http://mms.3.dk</URL>
@@ -1774,6 +1798,7 @@
       <Profile>
         <NetworkName>3 DK</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>services</ProfileName>
         <URL>http://mms.3.dk</URL>
@@ -1813,8 +1838,8 @@
       </Profile>
       <Profile>
         <NetworkName>Telia N</NetworkName>
-        <IpVersion>ipv6</IpVersion>
-        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>IMS</ProfileName>
         <Auth>none</Auth>
@@ -1928,6 +1953,7 @@
       <Profile>
         <NetworkName>S Telia</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Telia SE IMS</ProfileName>
         <Auth>none</Auth>
@@ -1938,7 +1964,8 @@
       </Profile>
       <Profile>
         <NetworkName>S Telia</NetworkName>
-        <IpVersion>ipv4</IpVersion>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Telia SE XCAP</ProfileName>
         <Auth>none</Auth>
@@ -1999,6 +2026,7 @@
       <Profile>
         <NetworkName>Halebop</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop IMS</ProfileName>
         <Bearer>ps</Bearer>
@@ -2011,6 +2039,7 @@
       <Profile>
         <NetworkName>Halebop S</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop IMS</ProfileName>
         <Bearer>ps</Bearer>
@@ -2023,6 +2052,7 @@
       <Profile>
         <NetworkName>Halebop</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop XCAP</ProfileName>
         <Bearer>ps</Bearer>
@@ -2035,6 +2065,7 @@
       <Profile>
         <NetworkName>Halebop S</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Halebop XCAP</ProfileName>
         <Bearer>ps</Bearer>
@@ -2042,6 +2073,37 @@
         <MTUSize>1300</MTUSize>
         <PSparam>
           <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mit Tele</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>websp</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mit Tele</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms.telia.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>193.209.134.131</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>www.mms.mtelia.dk</APN>
         </PSparam>
       </Profile>
     </Connections>
