@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>ITALY</Country>
     <CountryISO>IT</CountryISO>
     <Region>EUR</Region>
     <SalesCode>ITV</SalesCode>
-    <NbNetworkInfo>19</NbNetworkInfo>
+    <NbNetworkInfo>20</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
       <NetworkName>TIM</NetworkName>
@@ -112,6 +112,13 @@
       <MCCMNC>22250</MCCMNC>
       <NetworkName>Iliad</NetworkName>
       <NWID>NW01626</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>F003</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20815</MCCMNC>
+      <NetworkName>Iliad Int</NetworkName>
+      <NWID>NW01637</NWID>
       <CodeType>HEX</CodeType>
       <SubsetCode>F003</SubsetCode>
     </NetworkInfo>
@@ -312,7 +319,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>19</NbProfileHandle>
+      <NbProfileHandle>20</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>5</NbNetProfile>
         <NetworkName>TIM</NetworkName>
@@ -433,7 +440,13 @@
         <ProfBrowser>Iliad</ProfBrowser>
         <ProfMMS>Iliad</ProfMMS>
       </ProfileHandle>
-      <NbProfile>42</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Iliad Int</NetworkName>
+        <ProfBrowser>Iliad Int</ProfBrowser>
+        <ProfMMS>Iliad Int</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>43</NbProfile>
       <Profile>
         <NetworkName>TIM</NetworkName>
         <Editable>yes</Editable>
@@ -1063,6 +1076,20 @@
         <NetworkName>Iliad</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Iliad</ProfileName>
+        <URL>http://mms.iliad.it</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>iliad</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Iliad Int</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Iliad Int</ProfileName>
         <URL>http://mms.iliad.it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
