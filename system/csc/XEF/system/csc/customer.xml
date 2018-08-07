@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>France</Country>
     <CountryISO>FR</CountryISO>
     <Region>EUR</Region>
@@ -288,7 +288,6 @@
         <DefLanguage>fr_FR</DefLanguage>
         <DefLanguageNoSIM>fr_FR</DefLanguageNoSIM>
         <T9Enabling>enable</T9Enabling>
-        <T9Language>french</T9Language>
         <DateTimeFormat>
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
@@ -320,11 +319,6 @@
           <Roaming>manual</Roaming>
         </MmsReceiving>
       </MMS>
-      <Email>
-        <EmailReceiving>
-          <AutoPoll>off</AutoPoll>
-        </EmailReceiving>
-      </Email>
     </Messages>
     <Multimedia>
       <Camera>
@@ -700,6 +694,35 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Orange F IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Orange F VoWiFi</ProfileName>
+        <URL>http://mms.orange.fr/</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>vowifiorange</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Free</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Free</ProfileName>
@@ -859,6 +882,15 @@
       </Profile>
       <Profile>
         <NetworkName>F SFR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SFR MMS</ProfileName>
         <URL>http://mms1</URL>
@@ -954,6 +986,7 @@
       </Profile>
       <Profile>
         <NetworkName>BOUYGTEL</NetworkName>
+        <IpVersion>ipv6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Bouygues Internet</ProfileName>
         <Auth>normal</Auth>
@@ -968,6 +1001,7 @@
       </Profile>
       <Profile>
         <NetworkName>BOUYGTEL</NetworkName>
+        <IpVersion>ipv6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Bouygues MMS</ProfileName>
         <URL>http://mms.bouyguestelecom.fr/mms/wapenc</URL>
@@ -975,9 +1009,7 @@
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.201.129.226</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>mmsbouygtel.com</APN>
@@ -1565,44 +1597,6 @@
           <APN>bornsipmms</APN>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>Orange F</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>Orange F IMS</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Orange F</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>Orange F VoWiFi</ProfileName>
-        <URL>http://mms.orange.fr/</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1360</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.10.200</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>vowifiorange</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>F SFR</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>no</Editable>
-        <ProfileName>SFR IMS</ProfileName>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>3</NbSetting>
@@ -1622,26 +1616,7 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
-        </VoLTE>
-      </Setting>
-      <Setting>
-        <NetworkName>Orange F</NetworkName>
-        <Version>3.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
-          <EnableVoLTEindicator>false</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
@@ -1661,6 +1636,25 @@
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Orange F</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>
