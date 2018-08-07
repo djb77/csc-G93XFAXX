@@ -1,0 +1,2 @@
+/system/app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
+/system/priv-app/legimi-samsung-stub-20160406/legimi-samsung-stub-20160406.apk

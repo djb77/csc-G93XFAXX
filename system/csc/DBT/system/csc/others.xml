@@ -1,4 +1,4 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
   <Version>ED00005</Version>
   <Country>GERMANY</Country>
@@ -68,6 +68,8 @@
     <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>StopNetworkSearchingOnPause</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>Call</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
-    <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>
+    <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>	
+	<!-- The below tags were not in FMS -->
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
   </FeatureSet>
 </SamsungMobileFeature>
