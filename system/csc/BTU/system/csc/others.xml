@@ -52,9 +52,10 @@
     <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
-    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS,xcap,XCAP,EEZONE</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
     <CscFeature_SmartPage_ConfigLocalization>*EU4,+Upday</CscFeature_SmartPage_ConfigLocalization>
     <CscFeature_SystemUI_ConfigOpPlmnInfo>BTU</CscFeature_SystemUI_ConfigOpPlmnInfo>
     <CscFeature_Vision_ConfigBeauty>NLLXX</CscFeature_Vision_ConfigBeauty>

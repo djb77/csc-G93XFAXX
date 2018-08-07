@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0011</CSCEdition>
+    <CSCEdition>ED0025</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
     <SalesCode>BTU</SalesCode>
-    <NbNetworkInfo>40</NbNetworkInfo>
+    <NbNetworkInfo>44</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>23410</MCCMNC>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -26,9 +26,10 @@
       <MCCMNC>24007</MCCMNC>
       <NetworkName>Sky</NetworkName>
       <NWID>NW01140</NWID>
+      <SubsetCode>12</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>23486</MCCMNC>
+      <MCCMNC>23430</MCCMNC>
       <NetworkName>EE</NetworkName>
       <NWID>NW00425</NWID>
     </NetworkInfo>
@@ -36,6 +37,8 @@
       <MCCMNC>23430</MCCMNC>
       <NetworkName>EE</NetworkName>
       <NWID>NW00425</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>EE</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23430</MCCMNC>
@@ -52,7 +55,6 @@
       <NetworkName>Virgin</NetworkName>
       <NWID>NW01433</NWID>
       <SubsetCode>40</SubsetCode>
-      <SPName>Virgin</SPName>
       <GID2>56697267696E554B</GID2>
       <ICCID>894443</ICCID>
     </NetworkInfo>
@@ -65,6 +67,8 @@
       <MCCMNC>23410</MCCMNC>
       <NetworkName>TESCO</NetworkName>
       <NWID>NW01280</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>0AFF</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
@@ -97,14 +101,6 @@
       <NWID>NW01439</NWID>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>20601</MCCMNC>
-      <NetworkName>Virgin Media IE</NetworkName>
-      <NWID>NW01439</NWID>
-      <SubsetCode>117</SubsetCode>
-      <GID2>75696531FFFFFFFFFF</GID2>
-      <ICCID>8935315</ICCID>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
       <NetworkName>Asda</NetworkName>
       <NWID>NW00082</NWID>
@@ -121,8 +117,8 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>27203</MCCMNC>
-      <NetworkName>Meteor</NetworkName>
-      <NWID>NW00731</NWID>
+      <NetworkName>Eir</NetworkName>
+      <NWID>NW01600</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>27205</MCCMNC>
@@ -148,6 +144,8 @@
       <MCCMNC>23410</MCCMNC>
       <NetworkName>giffgaff</NetworkName>
       <NWID>NW00491</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>508F</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
@@ -158,6 +156,8 @@
       <MCCMNC>23410</MCCMNC>
       <NetworkName>TalkTalk</NetworkName>
       <NWID>NW01206</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>507F</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
@@ -178,16 +178,43 @@
       <MCCMNC>23430</MCCMNC>
       <NetworkName>BT</NetworkName>
       <NWID>NW00249</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>B3</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23430</MCCMNC>
+      <NetworkName>BT</NetworkName>
+      <NWID>NW00249</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>C3</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23458</MCCMNC>
       <NetworkName>Manx Telecom Contract</NetworkName>
       <NWID>NW00713</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>519F</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23458</MCCMNC>
       <NetworkName>Manx Telecom PrePay</NetworkName>
       <NWID>NW00705</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>519F</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23410</MCCMNC>
+      <NetworkName>Manx Telecom Contract</NetworkName>
+      <NWID>NW00713</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>519F</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23410</MCCMNC>
+      <NetworkName>Manx Telecom PrePay</NetworkName>
+      <NWID>NW00705</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>519F</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23455</MCCMNC>
@@ -214,6 +241,20 @@
       <NetworkName>Gamma</NetworkName>
       <NWID>NW01625</NWID>
       <SPCode>561</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>Virgin Media IE</NetworkName>
+      <NWID>NW01439</NWID>
+      <SubsetCode>117</SubsetCode>
+      <GID2>75696531FFFFFFFFFF</GID2>
+      <ICCID>8935315</ICCID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>Tesco Mobile Ireland</NetworkName>
+      <NWID>NW01287</NWID>
+      <SPName>Tesco Mobile</SPName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -308,15 +349,6 @@
         <SOSNumberNoSIM>1122</SOSNumberNoSIM>
         <SOSNumberNoSIM>141999</SOSNumberNoSIM>
         <SOSNumberNoSIM>141112</SOSNumberNoSIM>
-        <AutoProfile>on</AutoProfile>
-        <AutoVoicemail>on</AutoVoicemail>
-        <AutoEmailAccount>on</AutoEmailAccount>
-        <AutoBookmark>off</AutoBookmark>
-        <AutoLink>off</AutoLink>
-        <AutoSyncML>off</AutoSyncML>
-        <AutoFastDormancy>off</AutoFastDormancy>
-        <AutoWbAmr>off</AutoWbAmr>
-        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <ExtraSound>
@@ -327,7 +359,6 @@
         <DefLanguage>en_GB</DefLanguage>
         <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
         <T9Enabling>enable</T9Enabling>
-        <T9Language>english</T9Language>
         <DateTimeFormat>
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
@@ -368,9 +399,6 @@
         </MmsReceiving>
       </MMS>
       <Email>
-        <EmailReceiving>
-          <AutoPoll>off</AutoPoll>
-        </EmailReceiving>
         <NbAccount>5</NbAccount>
         <Account>
           <NetworkName>Vodafone Contract</NetworkName>
@@ -460,11 +488,6 @@
     <Wifi>
       <WifiEnableStatus>on</WifiEnableStatus>
     </Wifi>
-    <Multimedia>
-      <Camera>
-        <FlashSetting>auto</FlashSetting>
-      </Camera>
-    </Multimedia>
     <GPS>
       <GPSActivation>on</GPSActivation>
     </GPS>
@@ -473,13 +496,13 @@
       <Bookmark>
         <NetworkName>default</NetworkName>
         <BookmarkName>Google</BookmarkName>
-        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+        <URL>http://www.google.co.uk/m?client={CID}&amp;source=android-home</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
-    <NbWifiProfile>8</NbWifiProfile>
+    <NbWifiProfile>10</NbWifiProfile>
     <WifiProfile>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
       <WifiSSID>Wifi Extra</WifiSSID>
@@ -533,6 +556,20 @@
       <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
       <WifiEAPMethod>sim</WifiEAPMethod>
       <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
     </WifiProfile>
     <Connections>
       <NbProfileHandle>32</NbProfileHandle>
@@ -573,12 +610,12 @@
         <ProfMMS>O2 MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>EE</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
         <ProfIMS>ims</ProfIMS>
-        <ProfXCAP>Internet</ProfXCAP>
+        <ProfXCAP>EEZONE</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -593,10 +630,12 @@
         <ProfMMS>BT Mobile MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>BT</NetworkName>
-        <ProfBrowser>BT Mobile Internet</ProfBrowser>
-        <ProfMMS>BT MMS</ProfMMS>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>EEZONE</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -631,7 +670,7 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>TESCO</NetworkName>
-        <ProfBrowser>TESCO Mobile</ProfBrowser>
+        <ProfBrowser>TESCO</ProfBrowser>
         <ProfMMS>TESCO MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
@@ -653,10 +692,18 @@
         <ProfMMS>O2.ie MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Meteor</NetworkName>
-        <ProfBrowser>Meteor Data</ProfBrowser>
-        <ProfMMS>Meteor MMS</ProfMMS>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Eir</NetworkName>
+        <ProfBrowser>Eir Data</ProfBrowser>
+        <ProfMMS>Eir MMS</ProfMMS>
+        <ProfEmail>Eir Data</ProfEmail>
+        <ProfIM>Eir Data</ProfIM>
+        <ProfStreaming>Eir Data</ProfStreaming>
+        <ProfActiveSync>Eir Data</ProfActiveSync>
+        <ProfAGPS>Eir Data</ProfAGPS>
+        <ProfSGPS>Eir Data</ProfSGPS>
+        <ProfIntSharing>Eir Data</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -664,15 +711,18 @@
         <ProfBrowser>iD Internet</ProfBrowser>
         <ProfMMS>iD MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>iD Internet</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Three UK</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3MMS</ProfMMS>
         <ProfEmail>3</ProfEmail>
         <ProfStreaming>3</ProfStreaming>
         <ProfIntSharing>3hotspot</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>3</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -723,10 +773,12 @@
         <ProfMMS>iD MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Sky</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Ut</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -739,7 +791,7 @@
         <NetworkName>Virgin Media IE</NetworkName>
         <ProfBrowser>Virgin Media</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>72</NbProfile>
+      <NbProfile>78</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
@@ -1036,22 +1088,7 @@
       </Profile>
       <Profile>
         <NetworkName>EE</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>everywhere</APN>
-          <UserId>eesecure</UserId>
-          <Password>secure</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>EE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
@@ -1120,6 +1157,7 @@
       </Profile>
       <Profile>
         <NetworkName>BT Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>BT Mobile Internet</ProfileName>
         <Auth>normal</Auth>
@@ -1137,19 +1175,15 @@
       <Profile>
         <NetworkName>TESCO</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>TESCO Mobile</ProfileName>
+        <ProfileName>TESCO</ProfileName>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>193.113.200.195</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>prepay.tesco-mobile.com</APN>
-          <UserId>tescowap</UserId>
-          <Password>password</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -1161,14 +1195,10 @@
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>193.113.200.195</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>prepay.tesco-mobile.com</APN>
-          <UserId>tescowap</UserId>
-          <Password>password</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -1263,10 +1293,10 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Meteor</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>Meteor Data</ProfileName>
-        <URL>http://www.google.ie</URL>
+        <NetworkName>Eir</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Eir Data</ProfileName>
+        <URL>www.google.ie</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1274,13 +1304,13 @@
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>data.mymeteor.ie</APN>
+          <APN>data.myeirmobile.ie</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Meteor</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>Meteor MMS</ProfileName>
+        <NetworkName>Eir</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Eir MMS</ProfileName>
         <URL>http://mms.mymeteor.ie</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
@@ -1291,9 +1321,20 @@
           <Port>8799</Port>
         </Proxy>
         <PSparam>
-          <APN>mms.mymeteor.ie</APN>
+          <APN>mms.myeirmobile.ie</APN>
           <UserId>my</UserId>
           <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Eir</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1339,6 +1380,17 @@
         </Proxy>
         <PSparam>
           <APN>3hotspot</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Three UK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1446,8 +1498,8 @@
       <Profile>
         <NetworkName>BT</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>BT MMS</ProfileName>
-        <URL>http://MMS/</URL>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms/</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1457,15 +1509,16 @@
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>mms.bt.com</APN>
-          <UserId>bt</UserId>
-          <Password>bt</Password>
+          <APN>eezone</APN>
+          <UserId>eesecure</UserId>
+          <Password>secure</Password>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>BT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
-        <ProfileName>BT Mobile Internet</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1473,9 +1526,34 @@
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>btmobile.bt.com</APN>
-          <UserId>bt</UserId>
-          <Password>bt</Password>
+          <APN>everywhere</APN>
+          <UserId>eesecure</UserId>
+          <Password>secure</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BT</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BT</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>EEZONE</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>EEZONE</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1777,6 +1855,24 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Sky</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sky</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Ut</ProfileName>
+        <PSparam>
+          <APN>ut.mobile.sky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Gamma</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
@@ -1815,6 +1911,9 @@
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
         <PSparam>
           <APN>Internet</APN>
         </PSparam>
@@ -1827,6 +1926,17 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>EE</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>EEZONE</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>EEZONE</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1873,20 +1983,64 @@
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>6</NbSetting>
+      <NbSetting>10</NbSetting>
       <Setting>
         <NetworkName>EE</NetworkName>
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>BT</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Three UK</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -1966,7 +2120,7 @@
           <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
@@ -1992,6 +2146,50 @@
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Eir</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Sky</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
       </Setting>
     </IMSSetting>
   </Settings>

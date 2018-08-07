@@ -6,7 +6,7 @@ NaverV_N.apk
 FBInstagram_stub.apk
 FBMessenger_stub.apk
 WhatsApp.apk
-SamsungUpdates.apk
 UnifiedWFC.apk
 OMCAgent.apk
+SamsungUpdates.apk
 KT114Provider.apk
