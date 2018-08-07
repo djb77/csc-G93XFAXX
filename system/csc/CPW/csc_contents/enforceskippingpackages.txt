@@ -3,9 +3,9 @@ YahooEdgeNews.apk
 FlipboardBriefing.apk
 GalaxyCare.apk
 NaverV_N.apk
-SamsungUpdates.apk
 UnifiedWFC.apk
-RcsSettings.apk
 OMCAgent.apk
 Omc.apk
+SamsungUpdates.apk
+RcsSettings.apk
 KT114Provider.apk
