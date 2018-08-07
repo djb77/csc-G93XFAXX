@@ -1,6 +1,6 @@
-﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00002</Version>
+  <Version>ED00003</Version>
   <Country>UNITED KINGDOM</Country>
   <CountryISO>GB</CountryISO>
   <SalesCode>XEU</SalesCode>
@@ -51,7 +51,7 @@
     <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
-    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS,xcap,XCAP</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS,xcap,XCAP,EEZONE</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_SmartPage_ConfigLocalization>*EU4,+Upday</CscFeature_SmartPage_ConfigLocalization>
@@ -68,5 +68,7 @@
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Wifi_SupportSecureWifi>TRUE</CscFeature_Wifi_SupportSecureWifi>
     <CscFeature_Wifi_UseDefaultSecurityAs>WPA2/PSK</CscFeature_Wifi_UseDefaultSecurityAs>
+	<!-- The below tags were not in FMS -->
+    <CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>TRUE</CscFeature_SetupWizard_DisablePrivacyPolicyAgreement>
   </FeatureSet>
 </SamsungMobileFeature>
