@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>Russia</Country>
     <CountryISO>RU</CountryISO>
     <Region>CIS</Region>
@@ -197,11 +197,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
-        <MMSView>
-          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
-          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
-        </MMSView>
       </MMS>
       <Email>
         <NbAccount>1</NbAccount>
@@ -253,13 +248,15 @@
         <ProfIMS>MTS IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Beeline</NetworkName>
         <ProfBrowser>Beeline Internet</ProfBrowser>
         <ProfMMS>Beeline MMS</ProfMMS>
         <ProfEmail>Beeline Internet</ProfEmail>
         <ProfIM>Beeline Internet</ProfIM>
         <ProfStreaming>Beeline Internet</ProfStreaming>
+        <ProfIMS>Beeline IMS</ProfIMS>
+        <ProfXCAP>Beeline XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -314,11 +311,12 @@
         <ProfStreaming>WIFIRE Internet</ProfStreaming>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Sberbank-Telecom</NetworkName>
         <ProfBrowser>Sberbank-Telecom Internet</ProfBrowser>
         <ProfMMS>Sberbank-Telecom MMS</ProfMMS>
         <ProfEmail>Sberbank-Telecom Internet</ProfEmail>
+        <ProfIMS>Sberbank-Telecom IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -327,11 +325,12 @@
         <ProfEmail>Tinkoff Mobile Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Velcom</NetworkName>
         <ProfBrowser>Velcom Internet</ProfBrowser>
         <ProfMMS>Velcom MMS</ProfMMS>
         <ProfEmail>Velcom Internet</ProfEmail>
+        <ProfIMS>Velcom IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -376,11 +375,12 @@
         <ProfEmail>Geocell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Magticom</NetworkName>
         <ProfBrowser>Magticom Internet</ProfBrowser>
         <ProfMMS>Magticom MMS</ProfMMS>
         <ProfEmail>Magticom Internet</ProfEmail>
+        <ProfIMS>Magticom IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -410,7 +410,7 @@
         <ProfMMS>Beeline MMS</ProfMMS>
         <ProfEmail>Beeline Internet</ProfEmail>
       </ProfileHandle>
-      <NbProfile>44</NbProfile>
+      <NbProfile>49</NbProfile>
       <Profile>
         <NetworkName>MTS</NetworkName>
         <Editable>yes</Editable>
@@ -507,6 +507,22 @@
           <APN>internet.beeline.ru</APN>
           <UserId>beeline</UserId>
           <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap.beeline.ru</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -675,6 +691,14 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Sberbank-Telecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Sberbank-Telecom IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Tinkoff Mobile</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Tinkoff Mobile Internet</ProfileName>
@@ -711,6 +735,14 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>vmi.velcom.by</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Velcom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Velcom IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -769,6 +801,7 @@
       </Profile>
       <Profile>
         <NetworkName>AZERCELL</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Azercell Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -793,8 +826,8 @@
       </Profile>
       <Profile>
         <NetworkName>Bakcell</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Bakcell Internet</ProfileName>
-        <URL>http://wap.bakcell.com</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <PSparam>
@@ -803,6 +836,7 @@
       </Profile>
       <Profile>
         <NetworkName>Bakcell</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Bakcell MMS</ProfileName>
         <URL>http://mmsc.bakcell.com</URL>
         <Auth>normal</Auth>
@@ -816,6 +850,7 @@
       </Profile>
       <Profile>
         <NetworkName>Nar</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Nar DATA</ProfileName>
         <PSparam>
           <APN>nar</APN>
@@ -832,6 +867,7 @@
       </Profile>
       <Profile>
         <NetworkName>Geocell</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Geocell Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -841,6 +877,7 @@
       </Profile>
       <Profile>
         <NetworkName>Geocell</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Geocell MMS</ProfileName>
         <URL>http://mms.geocell.com.ge/cmmsc/post</URL>
         <Auth>normal</Auth>
@@ -856,6 +893,7 @@
       </Profile>
       <Profile>
         <NetworkName>Magticom</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Magticom Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -865,6 +903,7 @@
       </Profile>
       <Profile>
         <NetworkName>Magticom</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Magticom MMS</ProfileName>
         <URL>http://mms.magticom.ge</URL>
         <Auth>normal</Auth>
@@ -879,7 +918,16 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Magticom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Magticom IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Beeline GE</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Beeline Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -892,6 +940,7 @@
       </Profile>
       <Profile>
         <NetworkName>Beeline GE</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Beeline MMS</ProfileName>
         <URL>http://mms.ge.beeline.net/mms/wapenc</URL>
         <Auth>normal</Auth>
@@ -907,6 +956,7 @@
       </Profile>
       <Profile>
         <NetworkName>Orange</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Orange Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -916,6 +966,7 @@
       </Profile>
       <Profile>
         <NetworkName>Orange</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Orange MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
@@ -931,6 +982,7 @@
       </Profile>
       <Profile>
         <NetworkName>VivaCell-MTS</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>VivaCell-MTS Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -940,6 +992,7 @@
       </Profile>
       <Profile>
         <NetworkName>VivaCell-MTS</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>VivaCell-MTS MMS</ProfileName>
         <URL>http://mms.vivacell.am/mmsc</URL>
         <Auth>normal</Auth>
@@ -955,6 +1008,7 @@
       </Profile>
       <Profile>
         <NetworkName>Beeline AM</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Beeline Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -966,6 +1020,7 @@
       </Profile>
       <Profile>
         <NetworkName>Beeline AM</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>Beeline MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
@@ -981,7 +1036,7 @@
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>6</NbSetting>
       <Setting>
         <NetworkName>MTS</NetworkName>
         <Version>3.0</Version>
@@ -1018,6 +1073,83 @@
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Sberbank-Telecom</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>sip</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Magticom</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>sip</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Beeline</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Velcom</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>sip</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

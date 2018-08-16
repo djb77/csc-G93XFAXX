@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00004</Version>
+  <Version>ED00005</Version>
   <Country>RUSSIA</Country>
   <CountryISO>RU</CountryISO>
   <SalesCode>SER</SalesCode>
@@ -21,7 +21,7 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,ShowPrefModeMenuSim_25001_25002;,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuSim_25001_25002,SUPPORTWEAKSIGNALHO,ENHANCEDVOWIFI20,WFCCALLMENU</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
