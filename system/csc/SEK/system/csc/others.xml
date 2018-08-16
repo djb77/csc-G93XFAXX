@@ -1,17 +1,17 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00002</Version>
+  <Version>ED00004</Version>
   <Country>UKRAINE</Country>
   <CountryISO>UA</CountryISO>
   <SalesCode>SEK</SalesCode>
   <FeatureSet>
     <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
     <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
-    <CscFeature_Common_SupportRmm>TRUE</CscFeature_Common_SupportRmm>
     <CscFeature_Contact_FullCountryPrefixSearchSupport>TRUE</CscFeature_Contact_FullCountryPrefixSearchSupport>
     <CscFeature_Message_ConfigFreeMessage>on</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
+    <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
     <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
     <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
     <CscFeature_RIL_ReferEonsWithoutLac>TRUE</CscFeature_RIL_ReferEonsWithoutLac>

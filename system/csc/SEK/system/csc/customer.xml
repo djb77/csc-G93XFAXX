@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Ukraine</Country>
     <CountryISO>UA</CountryISO>
     <Region>CIS</Region>
@@ -238,7 +238,7 @@
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>mms.kyivstar.net</APN>
+          <APN>mms</APN>
           <UserId>mms</UserId>
           <Password>mms</Password>
         </PSparam>
@@ -253,7 +253,7 @@
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>www.kyivstar.net</APN>
+          <APN>internet</APN>
         </PSparam>
       </Profile>
       <Profile>
